@@ -86,7 +86,6 @@ class Blog extends Component {
                         </Card>
                         </div>
 
-                        
 
                     </div>
 
