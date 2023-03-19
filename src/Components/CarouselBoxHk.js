@@ -12,8 +12,8 @@ class CarouselBoxHk extends Component {
         return (
             <Carousel>
                 <Carousel.Item>
-                <img
-                className="d-block w-100"
+                <img width="400" height="400"
+                className="d-block rounded mx-auto"
                 src={OceanImg}
                 alt="Ocean"/>
                 <Carousel.Caption>
@@ -23,8 +23,8 @@ class CarouselBoxHk extends Component {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                <img
-                        className="d-block w-100"
+                <img width="400" height="400"
+                className="d-block rounded mx-auto"
                         src={MushroomsImg}
                         alt="Mushrooms"/>
                     <Carousel.Caption>
@@ -35,8 +35,8 @@ class CarouselBoxHk extends Component {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                <img
-                        className="d-block w-100"
+                <img width="400" height="400"
+                className="d-block rounded mx-auto"
                         src={FieldImg}
                         alt="FieldImg"/>
                     <Carousel.Caption>
