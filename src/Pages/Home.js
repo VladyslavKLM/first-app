@@ -17,14 +17,15 @@ class Home extends Component {
                             <Card className="m-4 text-center" bg="light" border="primary">
                                 <Card.Img
                                     variant="top"
-                                    src="https://qwertify.io/wp-content/uploads/2021/04/Team.jpeg"
+                                    src="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg"
                                 />
                                 <Card.Body>
                                     <Card.Title>Developers</Card.Title>
                                     <Card.Text>
                                         Команда 1
                                     </Card.Text>
-                                    <Button variant="primary">About team</Button>
+                                    
+                                    <Button variant="primary" href="/aboutDeveloper">About team</Button>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -39,7 +40,7 @@ class Home extends Component {
                                     <Card.Text>
                                         Команда 2
                                     </Card.Text>
-                                    <Button variant="primary">About team</Button>
+                                    <Button variant="primary" href="/aboutNaturalists">About team</Button>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -55,7 +56,7 @@ class Home extends Component {
                                     <Card.Text>
                                         Команда 3
                                     </Card.Text>
-                                    <Button variant="primary">About team</Button>
+                                    <Button variant="primary" href="/aboutMarketers">About team</Button>
                                 </Card.Body>
                             </Card>
                         </div>

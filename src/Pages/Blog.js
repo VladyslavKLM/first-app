@@ -1,5 +1,5 @@
 ﻿import React, {Component} from 'react';
-import {Col, Row} from "react-bootstrap";
+import {Container, Col, Row} from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
@@ -20,10 +20,8 @@ class Blog extends Component {
                                         alt="photo"/>
                                 </div>
                                 <div className="flex-grow-1 ms-3">
-                                    <h5>Blog post</h5>
-                                    <p>
-                                        Lorem
-                                    </p>
+                                    <h5>Blog post 1</h5>
+                                    <a class="nav-link" href="/blogPost1">Lorem</a>
                                 </div>
                             </div>
 
@@ -37,10 +35,11 @@ class Blog extends Component {
                                         alt="photo"/>
                                 </div>
                                 <div className="flex-grow-1 ms-3">
-                                    <h5>Blog post</h5>
-                                    <p>
-                                        Lorem
-                                    </p>
+                                    <h5>Blog post 2</h5>
+                                    
+                                    <a class="nav-link" href="/blogPost2">Lorem</a>
+                                        
+                                    
                                 </div>
                             </div>
 
@@ -54,10 +53,8 @@ class Blog extends Component {
                                         alt="photo"/>
                                 </div>
                                 <div className="flex-grow-1 ms-3">
-                                    <h5>Blog post</h5>
-                                    <p>
-                                        Lorem
-                                    </p>
+                                    <h5>Blog post 3</h5>
+                                    <a class="nav-link" href="/blogPost3">Lorem</a>
                                 </div>
                             </div>
 
